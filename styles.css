@@ -1,0 +1,200 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.form-control input {
+    padding: 5px;
+    border-radius: 12px;
+    border: none;
+    outline: .1;
+    outline-color: aquamarine;
+    font-size: 1rem;
+    
+}
+.menubtm{
+    width: 100%;
+    background-color: #282a35;
+    margin-top: 83px;
+}
+.menubtm a{
+    text-decoration: none;
+    color: white;
+    gap: 10px;
+    padding: 20px;
+
+}
+.material-symbols-rounded{
+    position: relative;
+    color: #282a35;
+    bottom: 30px;
+    left: 160px;
+    
+}
+.search{
+    position: relative;
+    top: 15px;
+}
+/* .search material-symbols-rounded{
+
+} */
+
+
+.service-two{
+    padding-left: 15px;
+    gap: 15px;
+}
+
+.service-two a{
+    text-decoration: none;
+    color: inherit;
+    gap: 30px;
+}
+
+.btn-group{
+    background-color: #04aa6d;
+}
+.content{
+    height: 150vh;
+    width: 100%;
+    margin-top: 107px;
+    background-color: #282a35;
+}
+.container-fluid{
+    color: white;
+    padding: 70px;
+    
+}
+
+.headf{
+    text-align: center;
+
+}
+.page h1{
+    position: relative;
+    text-align: center;
+    font-size: 70px;
+    
+}
+
+.version{
+    margin-top: 80px;
+    /* background-color: aquamarine; */
+    align-content: center;
+    height: 600px;
+    margin: 100px;
+
+}
+.vshf{
+    border-radius: 15%;
+    border: 2px solid white;
+    padding: 20px 35px;
+    display: inline-block;
+    font-size: 105px;
+    margin-top: 20%;
+    
+}
+.three{
+    align-items: center;
+    background-color: #846bae;
+    width: 33%;
+    position: relative;
+    text-align: center;
+}
+.four{
+    align-items: center;
+    background-color: #5f4884;
+    width: 33%;
+    position: relative;
+    text-align: center;
+}
+.five{
+    align-items: center;
+    background-color: #6c3ec1;
+    width: 33%;
+    position: relative;
+    text-align: center;
+
+}
+.w3-button{
+    display: inline;
+    text-decoration: none;
+    background:none ;
+    color: inherit;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    vertical-align: middle;
+    overflow: hidden;
+    padding: 12px 28px;
+    cursor: pointer;
+   
+}
+.p{
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    
+    
+}
+.w3-button:hover{
+    background-color: #ffffff;
+    color: #282a35;
+}
+
+.w3-footer{
+    background-image: url(https://www.w3schools.com/images/background_in_space.webp);
+    background-color: #282a35;
+    background-repeat: repeat;
+    background-position: right right center center;
+    height: 100vh;
+    margin-top: 0px;
+    
+    
+}
+.fhead{
+    /* display: inline; */
+    margin-right: 10px;
+    align-items: center;
+    
+}
+.fhead-list {
+    list-style: none;
+    padding: 0;      
+    margin: 0;  
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;   
+  }
+  
+  .fhead-item {
+    margin-bottom: 8px; 
+  }
+  
+  .fhead-item a {
+    text-decoration: none; 
+    color: #FFF4A3;
+    padding-top: 35px;
+  }
+  
+  .fhead-item a:hover {
+    text-decoration: underline; 
+    /* color: yellow; */
+  }
+  
+.fhead a{
+    text-decoration: none;
+    
+}
+.f-head{
+    font-size: 15px;
+    
+}
+.flist{
+ padding-left: 10%;   
+}
+.text-white{
+    font-size: 12px;
+    line-height: 15px;
+}

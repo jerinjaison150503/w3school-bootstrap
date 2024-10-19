@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3 schools bootstrap</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dark-mode.scss">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- icons  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=contrast" />
+    <!-- js -->
+    <script src="darkmode.js"></script>
+    
+    
+    
+</head>
+<body>
+    <div class="main">
+        <nav class="navbar navbar-expand-l bg-light navbar-fixed d-flex fixed-top">
+            <!-- <div> -->
+            <div class="logo">
+            <a href=""><img src="https://www.w3schools.com/images/w3schools_logo_436_2.png" width="60px"  alt=""></a>
+            </div>    
+            <div class="services">
+            <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown">Tutorials</button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-item"> list 1</li>
+                <li class="dropdown-item"> list 1</li>
+                <li class="dropdown-item"> list 1</li>
+
+            </ul>
+
+            <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown">Exercise</button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-item"> list 1</li>
+                <li class="dropdown-item"> list 1</li>
+                <li class="dropdown-item"> list 1</li>
+
+            </ul>
+
+            <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown">Certificates</button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-item"> suo</li>
+                <li class="dropdown-item"> list 1</li>
+                <li class="dropdown-item"> list 1</li>
+
+            </ul>
+
+            <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown">Services</button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-item"> third</li>
+                <li class="dropdown-item"> list 1</li>
+                <li class="dropdown-item"> list 1</li>
+            </ul>
+        </div>
+        <div class="search">
+            <input class="form-control me-2 rounded-pill" type="text" placeholder="search" style="width:200px;" >
+            <span class="material-symbols-rounded">
+                search
+                </span>
+        </div>
+        <div class="darkmod">
+            <!-- <button id="theme-toggle" class="btn btn-secondary">Toggle Dark Mode</button> -->
+             <a href="" id="theme-toggle" class="btn btn-secondary">
+                <span class="material-symbols-outlined">
+                    contrast
+                    </span>
+             </a>
+        </div>   
+        <div class="service-two rounded-pill">
+            <a href="" class="btn">
+                <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2215%22%20height%3D%2236%22%20viewBox%3D%220%200%2012%2016%22%20fill%3D%22none%22%20aria-hidden%3D%22true%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M6.65723%206.24707C6.76704%205.91764%207.233%205.91765%207.34281%206.24707L7.98828%208.1835C8.276%209.04666%208.95332%209.72399%209.81648%2010.0117L11.7529%2010.6572C12.0824%2010.767%2012.0824%2011.233%2011.7529%2011.3428L9.81649%2011.9883C8.95332%2012.276%208.27599%2012.9533%207.98828%2013.8165L7.34281%2015.7529C7.233%2016.0823%206.76704%2016.0823%206.65723%2015.7529L6.01173%2013.8165C5.72401%2012.9533%205.04669%2012.276%204.18353%2011.9883L2.24707%2011.3428C1.91764%2011.233%201.91764%2010.767%202.24707%2010.6572L4.18353%2010.0117C5.04669%209.72399%205.72401%209.04667%206.01173%208.18352L6.65723%206.24707Z%22%20fill%3D%22%239763f6%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M2.79434%201.14824C2.86023%200.950586%203.1398%200.950587%203.20569%201.14824L3.59297%202.3101C3.7656%202.828%204.172%203.2344%204.6899%203.40703L5.85177%203.79432C6.04942%203.86021%206.04942%204.13978%205.85177%204.20567L4.6899%204.59296C4.172%204.76559%203.7656%205.17199%203.59297%205.68989L3.20569%206.85176C3.13981%207.04941%202.86023%207.04942%202.79434%206.85176L2.40704%205.68988C2.23441%205.17198%201.82801%204.76559%201.31012%204.59296L0.148241%204.20567C-0.0494137%204.13978%20-0.0494138%203.86021%200.148241%203.79432L1.31012%203.40703C1.82802%203.2344%202.23441%202.82801%202.40704%202.31011L2.79434%201.14824Z%22%20fill%3D%22%239763f6%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M9.8629%200.0988265C9.90682%20-0.032943%2010.0932%20-0.0329419%2010.1371%200.098828L10.3953%200.873401C10.5104%201.21867%2010.7813%201.4896%2011.1266%201.60469L11.9012%201.86288C12.0329%201.9068%2012.0329%202.09319%2011.9012%202.13711L11.1266%202.39531C10.7813%202.51039%2010.5104%202.78133%2010.3953%203.12659L10.1371%203.90117C10.0932%204.03294%209.90682%204.03294%209.8629%203.90117L9.6047%203.12659C9.48961%202.78132%209.21868%202.5104%208.87342%202.39531L8.09883%202.13711C7.96706%202.09319%207.96706%201.9068%208.09883%201.86288L8.87342%201.60469C9.21868%201.4896%209.48961%201.21867%209.6047%200.873408L9.8629%200.0988265Z%22%20fill%3D%22%239763f6%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%3C%2Fsvg%3E" alt="">
+                Plus
+            </a>
+            <a href="" class="btn">
+                For Teacher
+            </a>
+            <a href="" class="btn">
+                Space
+            </a>
+            <a href="" class="btn">
+                Get Certified
+            </a>
+        </div>        
+        <div class="btn-group  rounded-pill">
+            <button type="button" class="btn rounded-pill" style="background-color: #04aa6d;">
+                Sign up
+            </button>
+            <button type="button" class="btn rounded-pill" style="background-color: #d9eee1;">
+                login
+            </button>1
+        </div>
+             
+            <!-- </div> -->
+        </nav>
+        <div class="menubtm fixed-top">
+            <a href="">HTML</a>
+            <a href="">CSS</a>
+            <a href="">JAVASCRIPT</a>
+            <a href="">SQL</a>
+            <a href="">PYTHON</a>
+            <a href="">JAVA</a>
+            <a href="">PHP</a>
+            <a href="">HOW TO</a>
+            <a href="">W3.CSS</a>
+            <a href="">C</a>
+            <a href="">C++</a>
+            <a href="">BOOTSTRAP</a>
+            <a href="">REACT</a>
+            <a href="">MYSQL</a>
+            <a href="">JQUERY</a>
+            <!-- 
+            <a href="">EXCEL</a>
+            <a href="">XML</a>
+            <a href="">DJANGO</a>
+            <a href="">NUMPHY</a>
+            <a href="">PANDAS</a>
+            <a href="">NODE.JS</a>
+            <a href="">R</a>
+            <a href="">TYPESCRIPT</a>
+            <a href="">ANGULAR</a>
+            <a href="">GIT</a>
+            <a href="">POSTGRESQL</a>
+            <a href="">MOMGODB</a>
+            <a href="">ASP</a>
+            <a href="">AI</a>
+            <a href="">GO</a>
+            <a href="">KOTLIN</a>
+            <a href="">SASS</a>
+            <a href="">VUE</a>
+            <a href="">DSA</a>
+            <a href="">GEN AI</a>
+            <a href="">SCIPY</a>
+            <a href="">AWS</a>
+            <a href="">CYBERSECURITY</a>
+            <a href="">DATASCIENCE</a> -->
+            
+        </div>
+        <div class="content">
+            <div class="container-fluid page">
+                <h1>Bootstrap versions</h1>
+                <br><br><br>
+                <div class="headf">
+                <h4>Bootstrap is the world's most famose free css framework.</h4>
+                <h4>You can choose between the following version </h4>
+                </div>
+                <div class="version container d-flex">
+                    <div class="three">
+                        <h4 class="vshf">B3</h4>
+                        <br><br><br><br>
+                        <p>
+                            <a href="" class="w3-button w3-rounded  w3-hover-white " style="font-size: 19px;">learn Bootstrap 3</a>
+                        </p>
+                        <br><br>
+                        <p style="font-size: 17px;" class="container">
+                            Bootstrap 3 is the most stable version of Bootstrap,and it is still supported by the team for critical bugfixes and documentation changes
+                        </p>
+                    </div>
+                    <div class="four">
+                        <h4 class="vshf">B4</h4>
+                        <br><br><br><br>
+                        <p>
+                            <a href="" class="w3-button w3-rounded  w3-hover-white " style="font-size: 19px;">learn Bootstrap 3</a>
+                        </p>
+                        <br><br>
+
+                        <p style="font-size: 17px;"  class="container">
+                            Bootstrap 3 is the most stable version of Bootstrap,and it is still supported by the team for critical bugfixes and documentation changes
+                        </p>
+                    </div>
+                    <div class="five">
+                        <h4 class="vshf">B5</h4>
+                        <br><br><br><br>
+                        <p>
+                            <a href="" class="w3-button w3-rounded  w3-hover-white " style="font-size: 19px;">learn Bootstrap 3</a>
+                        </p>
+                        <br><br>
+                        <p style="font-size: 17px;"  class="container">
+                            Bootstrap 3 is the most stable version of Bootstrap,and it is still supported by the team for critical bugfixes and documentation changes
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="w3-footer">
+            <div class="container" style="overflow: hidden;">
+                <div class="container">
+                    <ul class="fhead-list ">
+                        <li class="fhead-item">
+                            <a href="#">
+                                <img src="img/safari-pinned-tab.svg" style="width: 50px;" alt="">
+                            </a>
+                          </li>
+                        <li class="fhead-item">
+                          <a href="">Plus</a>
+                        </li>
+                        <li class="fhead-item">
+                          <a href="">Space</a>
+                        </li>
+                        <li class="fhead-item">
+                          <a href="">Get Certified</a>
+                        </li>
+                        <li class="fhead-item">
+                          <a href="">For Teacher</a>
+                        </li>
+                        <li class="fhead-item">
+                          <a href="">For Business</a>
+                        </li>
+                      </ul>
+                </div>
+                
+                  
+            </div>
+            <footer class=" text-white pt-5 pb-4">
+                <div class="container text-center text-md-left">
+                  <div class="row text-center text-md-left">
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                      <h5 class="text-uppercase mb-4 font-weight-bold f-head q">Top Tutorials</h5>
+                      <p class="flist"><a href="#" class="text-white" style="text-decoration: none;">HTML Tutorials</a></p>
+                      <p  class="flist" ><a href="#" class="text-white" style="text-decoration: none;">CSS Tutorials</a></p>
+                      <p  class="flist"> <a href="#" class="text-white" style="text-decoration: none;">JavaScript Tutorials</a></p>
+                      <p  class="flist"><a href="#" class="text-white" style="text-decoration: none;">How To Tutorials</a></p>
+                      <p  class="flist"><a href="#" class="text-white" style="text-decoration: none;">SQL Tutorials</a></p>
+                      <p class="flist"><a href="#" class="text-white" style="text-decoration: none;">Python Tutorials</a></p>
+                      <p  class="flist"><a href="#" class="text-white" style="text-decoration: none;">W3.CSS Tutorials</a></p>
+                      <p  class="flist"><a href="#" class="text-white" style="text-decoration: none;">Bootstrap Tutorials</a></p>
+                      <p  class="flist"><a href="#" class="text-white" style="text-decoration: none;">PHP Tutorials</a></p>
+                      <p  class="flist"> <a href="#" class="text-white" style="text-decoration: none;">Java Tutorials</a></p>
+                      <p  class="flist"><a href="#" class="text-white" style="text-decoration: none;">C++ Tutorials</a></p>
+                      <p  class="flist"><a href="#" class="text-white" style="text-decoration: none;">jQuery Tutorials</a></p>
+                    </div>
+              
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 ">
+                      <h5 class="text-uppercase mb-4 font-weight-bold f-head 2">Top Reference</h5>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">HTML Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">CSS Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">JavaScript Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">How To Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">SQL Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">Python Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">W3.CSS Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">Bootstrap Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">PHP Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">Java Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">C++ Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">jQuery Tutorials</a></p>
+                    </div>
+              
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                      <h5 class="text-uppercase mb-4 font-weight-bold f-head 3">Top Exanmples</h5>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">HTML Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">CSS Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">JavaScript Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">How To Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">SQL Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">Python Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">W3.CSS Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">Bootstrap Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">PHP Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">Java Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">C++ Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">jQuery Tutorials</a></p>
+                    </div>
+              
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                      <h5 class="text-uppercase mb-4 font-weight-bold f-head 4">Get Certified</h5>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">HTML Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">CSS Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">JavaScript Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">How To Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">SQL Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">Python Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">W3.CSS Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">Bootstrap Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">PHP Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">Java Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">C++ Tutorials</a></p>
+                      <p><a href="#" class="text-white" style="text-decoration: none;">jQuery Tutorials</a></p>
+                    </div>
+                  </div>
+              
+                  <hr class="mb-4">
+                  
+                  <div class="row align-items-center">
+                    <div class="col-md-7 col-lg-8">
+                      <p>&copy; 2024 Your Website Name. All Rights Reserved.</p>
+                    </div>
+              
+                    <div class="col-md-5 col-lg-4">
+                      <div class="text-center text-md-right">
+                        <ul class="list-unstyled list-inline">
+                          <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook-f"></i></a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-instagram"></i></a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-linkedin-in"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+              
+
+        </div>
+    </div>
+</body>
+</html>
